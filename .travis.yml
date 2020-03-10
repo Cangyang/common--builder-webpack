@@ -1,0 +1,19 @@
+
+lanage: node_js
+
+sudo: false
+
+cache:
+    apt: true
+    directories:
+        - node_modules
+        
+node_js: stable
+
+install:
+    - npm install -D              #安装构建器依赖
+    - cd ./test/smoke/template   
+    - npm install -D              #安装项目模板依赖
+    
+script:
+    - npm test-cover

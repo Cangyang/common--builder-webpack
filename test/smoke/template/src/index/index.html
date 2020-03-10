@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+/** webpack插件解析*/
+	${ require('raw-loader!./meta.html')}
+<script>${ require('raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js') }</script>
+<title>My Demo</title>
+</head>
+<body>
+    <div id="root"></div>
+	1、多页面应用MPA
+	   动态获取entry和设置html-webpack-plugin数量
+	   利用glob.sync
+	   entry: glob.sync(path.join__dirname, './src/*/index.js'),
+	   npm i glob -S
+</body>
+</html>
+
+

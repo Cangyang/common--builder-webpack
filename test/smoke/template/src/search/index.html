@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+/** webpack插件解析引入公共页面或外部js文件*/
+	${ require('raw-loader!./meta.html')}
+<script>${ require('raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js') }</script>
+
+<title>My Demo</title>
+</head>
+<body>
+    <!-- HTML模板占位符，服务端渲染HTML字符串-->
+    <div id="root"><!--HTML_PLACEHOLDER--></div>
+	<!-- 数据占位符，服务端渲染数据-->
+	<!-- INTIAL_DATA_PLACEHOLDER-->
+</body>
+</html>
+
+

@@ -1,0 +1,11 @@
+{
+	"presets": [
+		"@babel/preset-react",
+		"@babel/preset-env"
+	],
+	"plugins": [
+		// 安装babel插件 npm i @babel/plugin-syntax-dynamic-import -D
+		// 可用于动态import，懒加载机制
+		"@babel/plugin-syntax-dynamic-import",
+	]
+}
