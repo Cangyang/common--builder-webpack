@@ -16,4 +16,4 @@ install:
     - npm install -D              #安装项目模板依赖
     
 script:
-    - npm test-cover
+    - npm run test-cover
