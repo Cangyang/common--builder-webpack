@@ -28,7 +28,7 @@
     "glob-all": "^3.1.0",
     "husky": "^4.2.3",
     "istanbul": "^0.4.5",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "nyc": "^15.0.0",
     "rimraf": "^2.6.3",
     "validate-commit-msg": "^2.14.0"
